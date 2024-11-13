@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\WindowCitizen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowDocuments.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowNewCitizen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowNewDocuments.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowNewPersons.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowPersons.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowCitizen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowDocuments.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowNewCitizen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowNewDocuments.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowNewPersons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowPersons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
